@@ -1,0 +1,222 @@
+{
+  "verifiedOn": "2026-09-21",
+  "countries": [
+    {
+      "code": "SA",
+      "nameAr": "السعودية",
+      "nameEn": "Saudi Arabia",
+      "currency": "SAR",
+      "service": {
+        "label": "خدمة عقود الوساطة العقارية",
+        "url": "https://eservicesredp.rega.gov.sa/main",
+        "source": "https://rega.gov.sa/rega-services/platforms/fal-real-estate-brokerage/"
+      },
+      "licenses": [
+        {
+          "id": "brokerage_marketing",
+          "name": "رخصة فال للوساطة والتسويق العقاري",
+          "source": "https://rega.gov.sa/rega-services/platforms/fal-real-estate-brokerage/"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "aqar",
+          "name": "عقار",
+          "url": "https://sa.aqar.fm/"
+        }
+      ]
+    },
+    {
+      "code": "AE",
+      "nameAr": "الإمارات",
+      "nameEn": "United Arab Emirates",
+      "currency": "AED",
+      "service": null,
+      "licenses": [
+        {
+          "id": "ae_dubai_broker",
+          "name": "إمارة دبي — بطاقة وسيط عقاري",
+          "jurisdiction": "دبي",
+          "serviceUrl": "https://dubailand.gov.ae/ar/",
+          "source": "https://dubailand.gov.ae/ar/eservices/request-for-issuing-a-real-estate-activity-practice-card/"
+        },
+        {
+          "id": "ae_dubai_marketing",
+          "name": "إمارة دبي — بطاقة تسويق مشاريع عقارية",
+          "jurisdiction": "دبي",
+          "serviceUrl": "https://dubailand.gov.ae/ar/",
+          "source": "https://dubailand.gov.ae/ar/eservices/request-for-issuing-a-real-estate-activity-practice-card/"
+        },
+        {
+          "id": "ae_dubai_trading",
+          "name": "إمارة دبي — بطاقة بيع وشراء العقارات الخاصة",
+          "jurisdiction": "دبي",
+          "serviceUrl": "https://dubailand.gov.ae/ar/",
+          "source": "https://dubailand.gov.ae/ar/eservices/request-for-issuing-a-real-estate-activity-practice-card/"
+        },
+        {
+          "id": "ae_abudhabi_broker",
+          "name": "إمارة أبوظبي — ترخيص الوسيط",
+          "jurisdiction": "أبوظبي",
+          "serviceUrl": "https://adrec.gov.ae/",
+          "source": "https://adrec.gov.ae/ar/rules_and_regulations/Tenancy"
+        },
+        {
+          "id": "ae_sharjah_broker",
+          "name": "إمارة الشارقة — بطاقة وسيط عقاري",
+          "jurisdiction": "الشارقة",
+          "serviceUrl": "https://shjrerd.gov.ae/",
+          "source": "https://og.shj.ae/TashView.aspx?I=1744154"
+        },
+        {
+          "id": "ae_ajman_broker",
+          "name": "إمارة عجمان — بطاقة وسيط عقاري",
+          "jurisdiction": "عجمان",
+          "serviceUrl": "https://ajmanre.gov.ae/",
+          "source": "https://www.ajmanlegal.gov.ae/assets/80d86579/2013%20print.pdf.aspx"
+        },
+        {
+          "id": "ae_rak_broker",
+          "name": "إمارة رأس الخيمة — بطاقة الوسيط",
+          "jurisdiction": "رأس الخيمة",
+          "serviceUrl": "https://mun.rak.ae/",
+          "source": "https://mun.rak.ae/Documents/Lands%20and%20Properties%20Sector/2023/12-2023%20Law.pdf"
+        }
+      ],
+      "unverifiedJurisdictions": [
+        "الفجيرة",
+        "أم القيوين"
+      ],
+      "platforms": [
+        {
+          "id": "bayut",
+          "name": "بيوت",
+          "url": "https://www.bayut.com/about/"
+        }
+      ]
+    },
+    {
+      "code": "QA",
+      "nameAr": "قطر",
+      "nameEn": "Qatar",
+      "currency": "QAR",
+      "service": {
+        "label": "الخدمات الرسمية للوساطة العقارية",
+        "url": "https://www.moj.gov.qa/ar/departments/adart-alwsatt-alqaryt"
+      },
+      "licenses": [
+        {
+          "id": "qa_broker",
+          "name": "ترخيص مزاولة أعمال الوساطة العقارية",
+          "source": "https://www.moj.gov.qa/ar/departments/adart-alwsatt-alqaryt"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "propertyfinder_qa",
+          "name": "بروبرتي فايندر قطر",
+          "url": "https://www.propertyfinder.qa/"
+        }
+      ]
+    },
+    {
+      "code": "KW",
+      "nameAr": "الكويت",
+      "nameEn": "Kuwait",
+      "currency": "KWD",
+      "service": {
+        "label": "الخدمات الرسمية للوساطة العقارية",
+        "url": "https://www.moci.gov.kw/ar/e-service/digital-portal-real-estate-management/"
+      },
+      "licenses": [
+        {
+          "id": "kw_broker",
+          "name": "مزاولة مهنة السمسرة العقارية",
+          "source": "https://www.moci.gov.kw/ar/e-service/digital-portal-real-estate-management/"
+        },
+        {
+          "id": "kw_broker_identity",
+          "name": "هوية الوسيط العقاري",
+          "source": "https://www.moci.gov.kw/ar/e-service/digital-portal-real-estate-management/"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "sakan",
+          "name": "سكن",
+          "url": "https://sakan.co/ar/buy"
+        }
+      ]
+    },
+    {
+      "code": "BH",
+      "nameAr": "البحرين",
+      "nameEn": "Bahrain",
+      "currency": "BHD",
+      "service": {
+        "label": "الخدمات الرسمية للوساطة العقارية",
+        "url": "https://services.bahrain.bh/wps/portal/RERA_en"
+      },
+      "licenses": [
+        {
+          "id": "bh_broker",
+          "name": "رخصة وسيط عقاري",
+          "source": "https://helpdesk.rera.gov.bh/hc/ar/articles/360004040992"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "propertyfinder_bh",
+          "name": "بروبرتي فايندر البحرين",
+          "url": "https://www.propertyfinder.bh/"
+        }
+      ]
+    },
+    {
+      "code": "OM",
+      "nameAr": "عُمان",
+      "nameEn": "Oman",
+      "currency": "OMR",
+      "service": {
+        "label": "الخدمات الرسمية للوساطة العقارية",
+        "url": "https://mohup.gov.om/ar/e-services?category=%D8%A7%D9%84%D9%88%D8%B3%D8%A7%D8%B7%D8%A9+%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1%D9%8A%D8%A9"
+      },
+      "licenses": [
+        {
+          "id": "om_broker",
+          "name": "بطاقة وسيط عقاري",
+          "source": "https://gov.om/ar/w/get-real-estate-broker-card-for-first-time"
+        }
+      ],
+      "platforms": [
+        {
+          "id": "omanreal",
+          "name": "عُمان ريل",
+          "url": "https://www.omanreal.com/"
+        }
+      ]
+    }
+  ],
+  "socialPlatforms": [
+    {
+      "id": "instagram",
+      "name": "إنستغرام"
+    },
+    {
+      "id": "snapchat",
+      "name": "سناب شات"
+    },
+    {
+      "id": "tiktok",
+      "name": "تيك توك"
+    },
+    {
+      "id": "twitter",
+      "name": "X"
+    },
+    {
+      "id": "youtube",
+      "name": "يوتيوب"
+    }
+  ]
+}

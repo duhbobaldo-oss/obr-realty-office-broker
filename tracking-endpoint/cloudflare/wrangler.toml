@@ -1,0 +1,8 @@
+name = "obr-track"
+main = "worker.mjs"
+compatibility_date = "2026-01-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "obr-track-db"
+database_id = "<your-d1-database-id>"

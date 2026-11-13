@@ -1,0 +1,41 @@
+node_modules
+dist
+desktop/node_modules
+desktop/dist
+desktop/.tauri-dev-target
+desktop/src-tauri/target
+desktop/src-tauri/target-audit-build
+desktop/src-tauri/gen/schemas
+.shots
+*.log
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+desktop/.env
+desktop/src-tauri/.env
+bundle-check.txt
+cargo_test_out.txt
+dev-tauri-log.txt
+
+# --- baseline exclusions (pre-release verification baseline) ---
+# مدير الحزم المعتمد: npm (المرجع = package-lock.json في الجذر).
+# pnpm-lock.yaml ملف بقايا غير مستخدم (6 أسطر، بلا importers لـ workspace).
+pnpm-lock.yaml
+# مخرجات/سكربتات فحص وتحقق لمرة واحدة في جذر المستودع (ليست مدخلات Build)
+repro-*.html
+act_unpaid.json
+order.json
+register.json
+test-api.js
+# نسخ Installer احتياطية محلية (ليست جزءًا من المصدر)
+desktop/.release-backups/
+# قاعدة بيانات السيرفر القديم (Legacy) — بيانات محلية وليست مصدرًا
+server/data/
+# مخرجات قياس الأداء الخام (تقارير *.md وسكربت _bench_db.py تبقى متتبعة)
+docs/performance/_*.json
+docs/performance/_*.txt
+# أرشيف أصول الهوية البصرية المصدرية (غير مستخدم في Build)
+/شعارات للتطبيق/

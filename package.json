@@ -1,0 +1,15 @@
+{
+  "name": "mawasib-obr",
+  "version": "0.1.0",
+  "private": true,
+  "license": "Apache-2.0",
+  "description": "تطبيق مكتب الوسيط العقاري - Desktop Application (Tauri)",
+  "workspaces": [
+    "desktop"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=desktop",
+    "dev:tauri": "npm run dev:tauri --workspace=desktop",
+    "build:tauri": "npm run build:tauri --workspace=desktop"
+  }
+}

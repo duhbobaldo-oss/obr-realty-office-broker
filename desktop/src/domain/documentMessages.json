@@ -1,0 +1,1374 @@
+{
+  "doc.invoice": {
+    "ar": "فاتورة",
+    "en": "Invoice"
+  },
+  "doc.date": {
+    "ar": "التاريخ",
+    "en": "Date"
+  },
+  "doc.due": {
+    "ar": "الاستحقاق",
+    "en": "Due date"
+  },
+  "doc.client": {
+    "ar": "العميل",
+    "en": "Client"
+  },
+  "doc.property": {
+    "ar": "العقار",
+    "en": "Property"
+  },
+  "doc.campaign": {
+    "ar": "الحملة",
+    "en": "Campaign"
+  },
+  "doc.status": {
+    "ar": "الحالة",
+    "en": "Status"
+  },
+  "doc.notes": {
+    "ar": "الملاحظات",
+    "en": "Notes"
+  },
+  "doc.amount": {
+    "ar": "المبلغ",
+    "en": "Amount"
+  },
+  "doc.paid": {
+    "ar": "المدفوع",
+    "en": "Paid"
+  },
+  "doc.remaining": {
+    "ar": "المتبقي",
+    "en": "Remaining"
+  },
+  "doc.payments": {
+    "ar": "الدفعات",
+    "en": "Payments"
+  },
+  "doc.method": {
+    "ar": "طريقة الدفع",
+    "en": "Payment method"
+  },
+  "doc.reference": {
+    "ar": "المرجع",
+    "en": "Reference"
+  },
+  "doc.noPayments": {
+    "ar": "لا توجد دفعات مسجّلة على هذه الفاتورة.",
+    "en": "No payments recorded for this invoice."
+  },
+  "doc.phone": {
+    "ar": "هاتف",
+    "en": "Phone"
+  },
+  "doc.whatsapp": {
+    "ar": "واتساب",
+    "en": "WhatsApp"
+  },
+  "doc.email": {
+    "ar": "البريد",
+    "en": "Email"
+  },
+  "doc.license": {
+    "ar": "الترخيص / السجل التجاري",
+    "en": "License / Commercial registration"
+  },
+  "doc.broker": {
+    "ar": "الوسيط",
+    "en": "Broker"
+  },
+  "doc.value.due": {
+    "ar": "مستحق",
+    "en": "Due"
+  },
+  "doc.value.partial": {
+    "ar": "مدفوع جزئيًا",
+    "en": "Partially paid"
+  },
+  "doc.value.paid": {
+    "ar": "مدفوع",
+    "en": "Paid"
+  },
+  "doc.value.overdue": {
+    "ar": "متأخر",
+    "en": "Overdue"
+  },
+  "doc.value.transfer": {
+    "ar": "تحويل",
+    "en": "Bank transfer"
+  },
+  "doc.value.cash": {
+    "ar": "نقد",
+    "en": "Cash"
+  },
+  "doc.value.card": {
+    "ar": "شبكة",
+    "en": "Card"
+  },
+  "doc.value.cheque": {
+    "ar": "شيك",
+    "en": "Cheque"
+  },
+  "doc.value.other": {
+    "ar": "أخرى",
+    "en": "Other"
+  },
+  "template.royal-sheet": {
+    "ar": "بروشور عقار احترافي",
+    "en": "Professional Property Brochure"
+  },
+  "template.investment-brief": {
+    "ar": "فرصة استثمارية",
+    "en": "Investment Opportunity"
+  },
+  "template.gold-luxury": {
+    "ar": "عقار فاخر",
+    "en": "Luxury Property"
+  },
+  "template.opportunity-brief": {
+    "ar": "عرض بيع",
+    "en": "Property for Sale"
+  },
+  "template.modern-split": {
+    "ar": "عرض تأجير",
+    "en": "Property for Rent"
+  },
+  "template.unit-catalog": {
+    "ar": "مشروع ووحدات",
+    "en": "Project and Units"
+  },
+  "template.viewing-dossier": {
+    "ar": "ملف المعاينة والميزات",
+    "en": "Viewing and Features Dossier"
+  },
+  "template.commercial-offer": {
+    "ar": "عقار تجاري",
+    "en": "Commercial Property"
+  },
+  "template.marketing-report": {
+    "ar": "ملف عقاري تحريري",
+    "en": "Editorial Property Dossier"
+  },
+  "template.emerald-card": {
+    "ar": "عرض مختصر للمشاركة",
+    "en": "Compact Social Offer"
+  },
+  "design.text": {
+    "ar": "نص",
+    "en": "Text"
+  },
+  "design.heading": {
+    "ar": "عنوان",
+    "en": "Heading"
+  },
+  "design.ui.0": {
+    "ar": "نصوص",
+    "en": "Text elements"
+  },
+  "design.ui.1": {
+    "ar": "عنوان",
+    "en": "Heading"
+  },
+  "design.ui.2": {
+    "ar": "نص حر",
+    "en": "Free text"
+  },
+  "design.ui.3": {
+    "ar": "بيانات العقار",
+    "en": "Property data"
+  },
+  "design.ui.4": {
+    "ar": "صور",
+    "en": "Images"
+  },
+  "design.ui.5": {
+    "ar": "صورة ثابتة",
+    "en": "Static image"
+  },
+  "design.ui.6": {
+    "ar": "بيانات المكتب",
+    "en": "Office data"
+  },
+  "design.ui.7": {
+    "ar": "أشكال",
+    "en": "Shapes"
+  },
+  "design.ui.8": {
+    "ar": "مستطيل",
+    "en": "Rectangle"
+  },
+  "design.ui.9": {
+    "ar": "خط فاصل",
+    "en": "Divider"
+  },
+  "design.ui.10": {
+    "ar": "جدول مواصفات",
+    "en": "Specifications table"
+  },
+  "design.ui.11": {
+    "ar": "رمز QR",
+    "en": "QR code"
+  },
+  "design.ui.12": {
+    "ar": "تم فتح التصميم من مكتبة العروض",
+    "en": "Design opened from the offer library"
+  },
+  "design.ui.13": {
+    "ar": "تعذر قراءة ملف التصميم",
+    "en": "Could not read the design file"
+  },
+  "design.ui.14": {
+    "ar": "تعذر فتح التصميم المطلوب",
+    "en": "Could not open the requested design"
+  },
+  "design.ui.15": {
+    "ar": "تعذر تحميل البيانات",
+    "en": "Could not load data"
+  },
+  "design.ui.16": {
+    "ar": "رابط",
+    "en": "Link"
+  },
+  "design.ui.17": {
+    "ar": "نص",
+    "en": "Text"
+  },
+  "design.ui.18": {
+    "ar": "تعذر إدراج الصورة داخل المربع",
+    "en": "Could not insert image into the frame"
+  },
+  "design.ui.19": {
+    "ar": "تعذر النسخ إلى الحافظة",
+    "en": "Could not copy to clipboard"
+  },
+  "design.ui.20": {
+    "ar": "لا يوجد عنصر منسوخ من المصمم",
+    "en": "No designer element in the clipboard"
+  },
+  "design.ui.21": {
+    "ar": "يجب الإبقاء على صفحة واحدة على الأقل",
+    "en": "Keep at least one page"
+  },
+  "design.ui.22": {
+    "ar": "اسم الصفحة",
+    "en": "Page name"
+  },
+  "design.ui.23": {
+    "ar": "استبدال المستند الحالي بهذا القالب؟ التغييرات غير المحفوظة ستُفقد من المحرر.",
+    "en": "Replace the current document with this template? Unsaved editor changes will be lost."
+  },
+  "design.ui.24": {
+    "ar": "تصميم عرض",
+    "en": "Offer design"
+  },
+  "design.ui.25": {
+    "ar": "تم الحفظ في مكتبة العروض",
+    "en": "Saved to the offer library"
+  },
+  "design.ui.26": {
+    "ar": "فشل الحفظ في مكتبة العروض",
+    "en": "Could not save to the offer library"
+  },
+  "design.ui.27": {
+    "ar": "لا يوجد محتوى للتصدير",
+    "en": "No content to export"
+  },
+  "design.ui.28": {
+    "ar": "عرض عقاري",
+    "en": "Property offer"
+  },
+  "design.ui.29": {
+    "ar": "تم إلغاء التصدير",
+    "en": "Export cancelled"
+  },
+  "design.ui.30": {
+    "ar": "الصورة",
+    "en": "Image"
+  },
+  "design.ui.31": {
+    "ar": "فشل التصدير",
+    "en": "Export failed"
+  },
+  "design.ui.32": {
+    "ar": "فشل تصدير الملف",
+    "en": "File export failed"
+  },
+  "design.ui.33": {
+    "ar": "تعديل النص",
+    "en": "Edit text"
+  },
+  "design.ui.34": {
+    "ar": "إدراج صورة في المربع",
+    "en": "Insert image into frame"
+  },
+  "design.ui.35": {
+    "ar": "تكرار",
+    "en": "Duplicate"
+  },
+  "design.ui.36": {
+    "ar": "نسخ",
+    "en": "Copy"
+  },
+  "design.ui.37": {
+    "ar": "لصق",
+    "en": "Paste"
+  },
+  "design.ui.38": {
+    "ar": "إحضار إلى الأمام",
+    "en": "Bring to front"
+  },
+  "design.ui.39": {
+    "ar": "إرسال إلى الخلف",
+    "en": "Send to back"
+  },
+  "design.ui.40": {
+    "ar": "تراجع",
+    "en": "Undo"
+  },
+  "design.ui.41": {
+    "ar": "إعادة",
+    "en": "Redo"
+  },
+  "design.ui.42": {
+    "ar": "حذف",
+    "en": "Delete"
+  },
+  "design.ui.43": {
+    "ar": "وضع التركيز: أكبر مساحة للـCanvas",
+    "en": "Focus mode: maximize canvas space"
+  },
+  "design.ui.44": {
+    "ar": "طي لوحة العناصر",
+    "en": "Collapse elements panel"
+  },
+  "design.ui.45": {
+    "ar": "إظهار لوحة العناصر",
+    "en": "Show elements panel"
+  },
+  "design.ui.46": {
+    "ar": "اسحب وأفلت داخل التصميم",
+    "en": "Drag and drop into the design"
+  },
+  "design.ui.47": {
+    "ar": "إظهار لوحة الخصائص",
+    "en": "Show properties panel"
+  },
+  "design.ui.48": {
+    "ar": "خصائص العنصر المحدد",
+    "en": "Selected element properties"
+  },
+  "design.ui.49": {
+    "ar": "الرجوع للوضع الكامل",
+    "en": "Return to full workspace"
+  },
+  "design.ui.50": {
+    "ar": "اكتب الرقم أو التاريخ أو النص",
+    "en": "Enter a number, date or text"
+  },
+  "design.ui.51": {
+    "ar": "يُملأ تلقائيًا من العقار المرتبط في القائمة الجانبية",
+    "en": "Filled automatically from the property linked in the side panel"
+  },
+  "design.ui.52": {
+    "ar": "صفحات المستند",
+    "en": "Document pages"
+  },
+  "design.ui.53": {
+    "ar": "الصفحة السابقة",
+    "en": "Previous page"
+  },
+  "design.ui.54": {
+    "ar": "الصفحة التالية",
+    "en": "Next page"
+  },
+  "design.ui.55": {
+    "ar": "إضافة صفحة",
+    "en": "Add page"
+  },
+  "design.ui.56": {
+    "ar": "نسخ الصفحة",
+    "en": "Duplicate page"
+  },
+  "design.ui.57": {
+    "ar": "حذف الصفحة",
+    "en": "Delete page"
+  },
+  "design.ui.58": {
+    "ar": "صفحة",
+    "en": "Page"
+  },
+  "design.ui.59": {
+    "ar": "من",
+    "en": "of"
+  },
+  "design.ui.60": {
+    "ar": "صفحة ·",
+    "en": "pages ·"
+  },
+  "design.ui.61": {
+    "ar": "إظهار صفحات المستند",
+    "en": "Show document pages"
+  },
+  "design.ui.62": {
+    "ar": "طي شريط الصفحات",
+    "en": "Collapse page strip"
+  },
+  "design.ui.63": {
+    "ar": "الخصائص",
+    "en": "Properties"
+  },
+  "design.ui.64": {
+    "ar": "طي لوحة الخصائص",
+    "en": "Collapse properties panel"
+  },
+  "design.ui.65": {
+    "ar": "حدد عنصرًا في الصفحة لعرض خصائصه.",
+    "en": "Select an element on the page to view its properties."
+  },
+  "design.ui.66": {
+    "ar": "النص",
+    "en": "Text"
+  },
+  "design.ui.67": {
+    "ar": "المحتوى",
+    "en": "Content"
+  },
+  "design.ui.68": {
+    "ar": "أو انقر نقرًا مزدوجًا على العنصر داخل الصفحة للكتابة مباشرة.",
+    "en": "Or double-click an element on the page to type directly."
+  },
+  "design.ui.69": {
+    "ar": "الحجم",
+    "en": "Size"
+  },
+  "design.ui.70": {
+    "ar": "الوزن",
+    "en": "Weight"
+  },
+  "design.ui.71": {
+    "ar": "عادي",
+    "en": "Regular"
+  },
+  "design.ui.72": {
+    "ar": "متوسط",
+    "en": "Medium"
+  },
+  "design.ui.73": {
+    "ar": "عريض",
+    "en": "Bold"
+  },
+  "design.ui.74": {
+    "ar": "المحاذاة",
+    "en": "Alignment"
+  },
+  "design.ui.75": {
+    "ar": "يمين",
+    "en": "Right"
+  },
+  "design.ui.76": {
+    "ar": "وسط",
+    "en": "Center"
+  },
+  "design.ui.77": {
+    "ar": "يسار",
+    "en": "Left"
+  },
+  "design.ui.78": {
+    "ar": "اللون",
+    "en": "Color"
+  },
+  "design.ui.79": {
+    "ar": "الاسم «",
+    "en": "The label “"
+  },
+  "design.ui.80": {
+    "ar": "» ثابت. اكتب القيمة في مربع التعبئة أعلى اللوحة أو أسفل العنصر في الصفحة.",
+    "en": "” is fixed. Enter the value in the field above the panel or below the element on the page."
+  },
+  "design.ui.81": {
+    "ar": "الشكل",
+    "en": "Shape"
+  },
+  "design.ui.82": {
+    "ar": "الخلفية",
+    "en": "Background"
+  },
+  "design.ui.83": {
+    "ar": "الحدود",
+    "en": "Border"
+  },
+  "design.ui.84": {
+    "ar": "لون الحدود",
+    "en": "Border color"
+  },
+  "design.ui.85": {
+    "ar": "الزوايا",
+    "en": "Corner radius"
+  },
+  "design.ui.86": {
+    "ar": "الشفافية",
+    "en": "Opacity"
+  },
+  "design.ui.87": {
+    "ar": "إدراج داخل المربع",
+    "en": "Insert into frame"
+  },
+  "design.ui.88": {
+    "ar": "تعذر قراءة ملف الصورة",
+    "en": "Could not read the image file"
+  },
+  "design.ui.89": {
+    "ar": "المربع ثابت بالمليمتر. الصورة تُصغَّر لتناسب الإطار ولا تكبّره. انقر المربع في الصفحة أو استخدم هذا الحقل.",
+    "en": "The frame has a fixed size in millimeters. The image fits within it without enlarging it. Click the frame on the page or use this field."
+  },
+  "design.ui.90": {
+    "ar": "إزالة الصورة اليدوية",
+    "en": "Remove manual image"
+  },
+  "design.ui.91": {
+    "ar": "تعبئة القيمة",
+    "en": "Enter value"
+  },
+  "design.ui.92": {
+    "ar": "القيمة",
+    "en": "Value"
+  },
+  "design.ui.93": {
+    "ar": "الاسم يبقى ثابتًا. ما تكتبه يظهر بجانبه مثل:",
+    "en": "The label stays fixed. Your text appears beside it, for example:"
+  },
+  "design.ui.94": {
+    "ar": "العنصر",
+    "en": "Element"
+  },
+  "design.ui.95": {
+    "ar": ": 500 ألف",
+    "en": ": 500,000"
+  },
+  "design.ui.96": {
+    "ar": "— إن تركت المربع فارغًا تُستخدم بيانات العقار/المكتب المرتبط إن وُجدت.",
+    "en": "— Leave empty to use linked property or office data when available."
+  },
+  "design.ui.97": {
+    "ar": "جدول المواصفات",
+    "en": "Specifications table"
+  },
+  "design.ui.98": {
+    "ar": "هذا الجدول لا يُعبأ يدويًا. اختر عقارًا من «العقار المرتبط» في اللوحة الجانبية ليُملأ تلقائيًا بالنوع والغرض والمدينة والمساحة والسعر.",
+    "en": "This table is filled automatically. Select a linked property in the side panel to show its type, purpose, city, area and price."
+  },
+  "design.ui.99": {
+    "ar": "البيانات",
+    "en": "Data"
+  },
+  "design.ui.100": {
+    "ar": "مصدر البيانات",
+    "en": "Data source"
+  },
+  "design.ui.101": {
+    "ar": "— بدون ربط —",
+    "en": "— No binding —"
+  },
+  "design.ui.102": {
+    "ar": "إخفاء إذا كانت القيمة فارغة",
+    "en": "Hide when empty"
+  },
+  "design.ui.103": {
+    "ar": "أدخل رابطًا أو نصًا حقيقيًا (مثل رابط الإعلان). الرمز يُولَّد للمسح الفعلي، واجعل مربع QR مربّعًا قدر الإمكان.",
+    "en": "Enter a real link or text, such as the listing URL. The code is scannable; keep its frame square where possible."
+  },
+  "design.ui.104": {
+    "ar": "رابط أو نص يدوي",
+    "en": "Manual link or text"
+  },
+  "design.ui.105": {
+    "ar": "https://… أو نص للمسح",
+    "en": "https://… or text to scan"
+  },
+  "design.ui.106": {
+    "ar": "الموضع والحجم",
+    "en": "Position and size"
+  },
+  "design.ui.107": {
+    "ar": "س (مم)",
+    "en": "X (mm)"
+  },
+  "design.ui.108": {
+    "ar": "ص (مم)",
+    "en": "Y (mm)"
+  },
+  "design.ui.109": {
+    "ar": "العرض",
+    "en": "Width"
+  },
+  "design.ui.110": {
+    "ar": "الارتفاع",
+    "en": "Height"
+  },
+  "design.ui.111": {
+    "ar": "الترتيب",
+    "en": "Layer order"
+  },
+  "design.ui.112": {
+    "ar": "أمام الكل",
+    "en": "Bring to front"
+  },
+  "design.ui.113": {
+    "ar": "تقديم",
+    "en": "Bring forward"
+  },
+  "design.ui.114": {
+    "ar": "تأخير",
+    "en": "Send backward"
+  },
+  "design.ui.115": {
+    "ar": "خلف الكل",
+    "en": "Send to back"
+  },
+  "design.ui.116": {
+    "ar": "بيانات عقار",
+    "en": "Property data"
+  },
+  "design.ui.117": {
+    "ar": "بيانات مكتب",
+    "en": "Office data"
+  },
+  "design.ui.118": {
+    "ar": "صورة",
+    "en": "Image"
+  },
+  "design.ui.119": {
+    "ar": "عنصر",
+    "en": "Element"
+  },
+  "design.ui.120": {
+    "ar": "مكان صورة — انقر لإدراج",
+    "en": "Image frame — click to insert"
+  },
+  "design.ui.121": {
+    "ar": "مكان QR",
+    "en": "QR placeholder"
+  },
+  "design.ui.122": {
+    "ar": "جدول المواصفات (اربط عقارًا)",
+    "en": "Specifications table (link a property)"
+  },
+  "design.ui.123": {
+    "ar": "اكتب القيمة في المربع أسفل العنصر",
+    "en": "Enter the value in the field below the element"
+  },
+  "design.ui.124": {
+    "ar": "اكتب في المربع أسفل العنصر",
+    "en": "Type in the field below the element"
+  },
+  "design.ui.125": {
+    "ar": "عنوان العرض",
+    "en": "Listing title"
+  },
+  "design.ui.126": {
+    "ar": "السعر",
+    "en": "Price"
+  },
+  "design.ui.127": {
+    "ar": "سعر المتر",
+    "en": "Price per square meter"
+  },
+  "design.ui.128": {
+    "ar": "المساحة",
+    "en": "Area"
+  },
+  "design.ui.129": {
+    "ar": "المدينة",
+    "en": "City"
+  },
+  "design.ui.130": {
+    "ar": "الحي",
+    "en": "District"
+  },
+  "design.ui.131": {
+    "ar": "نوع العقار",
+    "en": "Property type"
+  },
+  "design.ui.132": {
+    "ar": "الغرض",
+    "en": "Purpose"
+  },
+  "design.ui.133": {
+    "ar": "الواجهة",
+    "en": "Frontage"
+  },
+  "design.ui.134": {
+    "ar": "عرض الشارع",
+    "en": "Street width"
+  },
+  "design.ui.135": {
+    "ar": "الوصف",
+    "en": "Description"
+  },
+  "design.ui.136": {
+    "ar": "رقم الإعلان",
+    "en": "Listing number"
+  },
+  "design.ui.137": {
+    "ar": "رابط الإعلان",
+    "en": "Listing URL"
+  },
+  "design.ui.138": {
+    "ar": "رقم تصريح الإعلان / رقم الإعلان",
+    "en": "Advertising permit / Listing number"
+  },
+  "design.ui.139": {
+    "ar": "صورة العقار",
+    "en": "Property image"
+  },
+  "design.ui.140": {
+    "ar": "اسم المكتب",
+    "en": "Office name"
+  },
+  "design.ui.141": {
+    "ar": "هاتف المكتب",
+    "en": "Office phone"
+  },
+  "design.ui.142": {
+    "ar": "واتساب المكتب",
+    "en": "Office WhatsApp"
+  },
+  "design.ui.143": {
+    "ar": "الترخيص / السجل التجاري",
+    "en": "License / Commercial registration"
+  },
+  "design.ui.144": {
+    "ar": "شعار المكتب",
+    "en": "Office logo"
+  },
+  "design.ui.145": {
+    "ar": "حقل",
+    "en": "Field"
+  },
+  "design.ui.146": {
+    "ar": "تصميم عرض جديد",
+    "en": "New offer design"
+  },
+  "design.ui.147": {
+    "ar": "صفحة 1",
+    "en": "Page 1"
+  },
+  "design.ui.148": {
+    "ar": "تصميم مستورد",
+    "en": "Imported design"
+  },
+  "design.ui.149": {
+    "ar": "A4 طولي",
+    "en": "A4 portrait"
+  },
+  "design.ui.150": {
+    "ar": "A4 عرضي",
+    "en": "A4 landscape"
+  },
+  "design.ui.151": {
+    "ar": "A5 طولي",
+    "en": "A5 portrait"
+  },
+  "design.ui.152": {
+    "ar": "فلاير 120×180",
+    "en": "Flyer 120×180"
+  },
+  "design.ui.153": {
+    "ar": "A4 طولي — صورة البطل مع عنوان فوقها وسعر وميزات",
+    "en": "A4 portrait — hero image, title, price and features"
+  },
+  "design.ui.154": {
+    "ar": "A4 طولي — تنفيذي أبيض بمؤشرات الاستثمار",
+    "en": "A4 portrait — white executive layout with investment figures"
+  },
+  "design.ui.155": {
+    "ar": "A4 طولي — صورة full-bleed وإطار ذهبي ووسط سليم",
+    "en": "A4 portrait — full-bleed image with a gold frame"
+  },
+  "design.ui.156": {
+    "ar": "A5 — هوية خضراء سريعة للتسليم في المعاينة",
+    "en": "A5 — compact green layout for property viewings"
+  },
+  "design.ui.157": {
+    "ar": "A4 عرضي — صورة كاملة الارتفاع مع لوحة جانبية",
+    "en": "A4 landscape — full-height image with a side panel"
+  },
+  "design.ui.158": {
+    "ar": "A4 طولي — شبكة ميزات 2×3 وسعر بارز",
+    "en": "A4 portrait — 2×3 feature grid with a prominent price"
+  },
+  "design.ui.159": {
+    "ar": "A4 طولي — رمز QR وبيانات الإعلان والرخصة",
+    "en": "A4 portrait — QR code, listing and license details"
+  },
+  "design.ui.160": {
+    "ar": "A4 طولي — شريط مؤشرات الواجهة وعرض الشارع",
+    "en": "A4 portrait — frontage and street-width figures"
+  },
+  "design.ui.161": {
+    "ar": "A4 طولي — أبيض هادئ بوصف تحريري وصور بإطار",
+    "en": "A4 portrait — editorial description and framed images"
+  },
+  "design.ui.162": {
+    "ar": "فلاير 120×180 — full-bleed درامي للدعاية السريعة",
+    "en": "120×180 flyer — full-bleed image for quick sharing"
+  },
+  "design.ui.163": {
+    "ar": "مخصص",
+    "en": "Custom"
+  },
+  "design.ui.164": {
+    "ar": "أرشيف سابق",
+    "en": "Legacy archive"
+  },
+  "design.ui.165": {
+    "ar": "عرض",
+    "en": "Offer"
+  },
+  "design.ui.166": {
+    "ar": "يجب تسجيل الدخول قبل التصدير",
+    "en": "Sign in before exporting"
+  },
+  "design.ui.167": {
+    "ar": "إدراج صورة",
+    "en": "Insert image"
+  },
+  "design.ui.168": {
+    "ar": "تغيير الحجم",
+    "en": "Resize"
+  },
+  "design.projectDetails": {
+    "ar": "تفاصيل المشروع والوحدات",
+    "en": "Project and unit details"
+  },
+  "design.propertyDetails": {
+    "ar": "تفاصيل العقار",
+    "en": "Property details"
+  },
+  "design.sale": {
+    "ar": "بيع",
+    "en": "Sale"
+  },
+  "design.rent": {
+    "ar": "إيجار",
+    "en": "Rent"
+  },
+  "design.investment": {
+    "ar": "استثمار",
+    "en": "Investment"
+  },
+  "design.m2": {
+    "ar": "م²",
+    "en": "m²"
+  },
+  "design.m": {
+    "ar": "م",
+    "en": "m"
+  },
+  "integration.title": {
+    "ar": "التكاملات الرسمية",
+    "en": "Official Integrations"
+  },
+  "integration.description": {
+    "ar": "إعداد روابط الخدمات واتصالات API المعتمدة من الجهة. لا توجد واجهات حكومية مفترضة مسبقًا.",
+    "en": "Configure service links and API connections supplied by the authority. No government APIs are preconfigured."
+  },
+  "integration.add": {
+    "ar": "إضافة تكامل",
+    "en": "Add integration"
+  },
+  "integration.authorityName": {
+    "ar": "اسم الجهة",
+    "en": "Authority name"
+  },
+  "integration.integrationName": {
+    "ar": "اسم التكامل",
+    "en": "Integration name"
+  },
+  "integration.country": {
+    "ar": "الدولة",
+    "en": "Country"
+  },
+  "integration.jurisdiction": {
+    "ar": "الولاية التنظيمية / الإمارة",
+    "en": "Jurisdiction / Emirate"
+  },
+  "integration.countryWide": {
+    "ar": "على مستوى الدولة",
+    "en": "Country-wide"
+  },
+  "integration.mode": {
+    "ar": "نوع التكامل",
+    "en": "Integration mode"
+  },
+  "integration.official_url": {
+    "ar": "رابط خدمات رسمي / مخصص",
+    "en": "Official / custom service URL"
+  },
+  "integration.api": {
+    "ar": "API",
+    "en": "API"
+  },
+  "integration.serviceUrl": {
+    "ar": "رابط الخدمات HTTPS",
+    "en": "Service URL (HTTPS)"
+  },
+  "integration.baseUrl": {
+    "ar": "الرابط الأساسي HTTPS",
+    "en": "Base URL (HTTPS)"
+  },
+  "integration.endpoint": {
+    "ar": "مسار اختبار الاتصال",
+    "en": "Connection test endpoint"
+  },
+  "integration.httpMethod": {
+    "ar": "طريقة HTTP",
+    "en": "HTTP method"
+  },
+  "integration.authType": {
+    "ar": "نوع المصادقة",
+    "en": "Authentication type"
+  },
+  "integration.none": {
+    "ar": "بدون مصادقة",
+    "en": "None"
+  },
+  "integration.api_key": {
+    "ar": "مفتاح API",
+    "en": "API Key"
+  },
+  "integration.bearer": {
+    "ar": "رمز Bearer",
+    "en": "Bearer Token"
+  },
+  "integration.basic": {
+    "ar": "اسم مستخدم وكلمة مرور",
+    "en": "Basic Auth"
+  },
+  "integration.oauth2": {
+    "ar": "OAuth2 بيانات العميل",
+    "en": "OAuth2 Client Credentials"
+  },
+  "integration.apiKeyHeader": {
+    "ar": "اسم Header لمفتاح API",
+    "en": "API key header name"
+  },
+  "integration.apiKey": {
+    "ar": "مفتاح API",
+    "en": "API key"
+  },
+  "integration.clientId": {
+    "ar": "معرّف العميل",
+    "en": "Client ID"
+  },
+  "integration.clientSecret": {
+    "ar": "سر العميل",
+    "en": "Client secret"
+  },
+  "integration.token": {
+    "ar": "رمز الوصول",
+    "en": "Access token"
+  },
+  "integration.username": {
+    "ar": "اسم المستخدم",
+    "en": "Username"
+  },
+  "integration.password": {
+    "ar": "كلمة المرور",
+    "en": "Password"
+  },
+  "integration.tokenUrl": {
+    "ar": "رابط إصدار رمز OAuth2",
+    "en": "OAuth2 token URL"
+  },
+  "integration.scope": {
+    "ar": "النطاق الاختياري",
+    "en": "Optional scope"
+  },
+  "integration.customHeaders": {
+    "ar": "Headers مخصصة بصيغة JSON — مشفرة",
+    "en": "Custom headers as JSON — encrypted"
+  },
+  "integration.enabled": {
+    "ar": "مفعّل",
+    "en": "Enabled"
+  },
+  "integration.status": {
+    "ar": "الحالة",
+    "en": "Status"
+  },
+  "integration.untested": {
+    "ar": "غير مختبر",
+    "en": "Untested"
+  },
+  "integration.success": {
+    "ar": "ناجح",
+    "en": "Success"
+  },
+  "integration.failure": {
+    "ar": "فشل",
+    "en": "Failure"
+  },
+  "integration.actions": {
+    "ar": "الإجراءات",
+    "en": "Actions"
+  },
+  "integration.edit": {
+    "ar": "تعديل",
+    "en": "Edit"
+  },
+  "integration.enable": {
+    "ar": "تفعيل",
+    "en": "Enable"
+  },
+  "integration.disable": {
+    "ar": "تعطيل",
+    "en": "Disable"
+  },
+  "integration.test": {
+    "ar": "اختبار الاتصال",
+    "en": "Test connection"
+  },
+  "integration.delete": {
+    "ar": "حذف",
+    "en": "Delete"
+  },
+  "integration.deleteConfirm": {
+    "ar": "حذف هذا التكامل وبيانات اتصاله؟",
+    "en": "Delete this integration and its connection settings?"
+  },
+  "integration.save": {
+    "ar": "حفظ التكامل",
+    "en": "Save integration"
+  },
+  "integration.saved": {
+    "ar": "تم حفظ التكامل.",
+    "en": "Integration saved."
+  },
+  "integration.close": {
+    "ar": "إغلاق",
+    "en": "Close"
+  },
+  "integration.protected": {
+    "ar": "بيانات اعتماد محفوظة ومحمية",
+    "en": "Credentials saved and protected"
+  },
+  "integration.replaceSecrets": {
+    "ar": "استبدال جميع بيانات الاعتماد وHeaders",
+    "en": "Replace all credentials and headers"
+  },
+  "integration.probeHint": {
+    "ar": "اختبار الاتصال يرسل طلبًا بالطريقة المحددة إلى مسار الاختبار. استخدم مسار فحص آمن موثق من الجهة. لا تضع أسرارًا داخل الروابط.",
+    "en": "Test connection sends the selected HTTP method to the test endpoint. Use an authority-documented safe probe endpoint. Do not put secrets in URLs."
+  },
+  "integration.mapping_required": {
+    "ar": "يتطلب تنفيذ إجراءات الجهة ربط الحقول وفق وثائق API؛ لا يتم إرسال عقد أو توثيقه تلقائيًا.",
+    "en": "Authority actions require mapping based on API documentation; contracts are not submitted or authenticated automatically."
+  },
+  "integration.connected": {
+    "ar": "تم الاتصال بالرابط.",
+    "en": "URL connection succeeded."
+  },
+  "integration.connection_failed": {
+    "ar": "فشل اختبار الاتصال. تحقق من الرابط وبيانات الاتصال.",
+    "en": "Connection test failed. Check the URL and connection settings."
+  },
+  "integration.failed": {
+    "ar": "تعذر إكمال عملية التكامل.",
+    "en": "Could not complete the integration operation."
+  },
+  "integration.storage": {
+    "ar": "تعذر قراءة أو حفظ التكاملات.",
+    "en": "Could not read or save integrations."
+  },
+  "integration.invalid": {
+    "ar": "بيانات التكامل غير صالحة.",
+    "en": "Invalid integration settings."
+  },
+  "integration.not_found": {
+    "ar": "التكامل غير موجود.",
+    "en": "Integration not found."
+  },
+  "integration.https_required": {
+    "ar": "استخدم رابط HTTPS صالحًا دون اسم مستخدم أو كلمة مرور؛ روابط API لا تقبل query أو fragment.",
+    "en": "Use a valid HTTPS URL without embedded credentials; API URLs cannot contain a query or fragment."
+  },
+  "integration.jurisdiction_error": {
+    "ar": "اختر إمارة من القائمة الموثقة.",
+    "en": "Select an emirate from the verified list."
+  },
+  "integration.names_required": {
+    "ar": "اسم الجهة واسم التكامل مطلوبان.",
+    "en": "Authority and integration names are required."
+  },
+  "integration.credentials": {
+    "ar": "بيانات المصادقة أو Headers غير صالحة أو ناقصة.",
+    "en": "Authentication credentials or headers are invalid or incomplete."
+  },
+  "integration.active_conflict": {
+    "ar": "يوجد تكامل مفعّل لهذه الدولة والولاية؛ عطّله أولًا.",
+    "en": "An integration is already enabled for this country and jurisdiction; disable it first."
+  },
+  "integration.headers_json": {
+    "ar": "أدخل كائن JSON بأسماء Headers وقيم نصية.",
+    "en": "Enter a JSON object containing header names and string values."
+  },
+  "integration.secret_protection": {
+    "ar": "تعذر حماية بيانات الاعتماد أو فكها بحساب Windows الحالي.",
+    "en": "Could not protect or decrypt credentials using the current Windows account."
+  },
+  "integration.windows_required": {
+    "ar": "حماية بيانات الاعتماد تتطلب Windows.",
+    "en": "Credential protection requires Windows."
+  },
+  "integration.secret_size": {
+    "ar": "حجم بيانات الاعتماد غير صالح.",
+    "en": "Invalid credential size."
+  },
+  "integration.auth_failed": {
+    "ar": "فشلت مصادقة API.",
+    "en": "API authentication failed."
+  },
+  "integration.method": {
+    "ar": "طريقة HTTP غير مدعومة.",
+    "en": "Unsupported HTTP method."
+  },
+  "integration.no_service": {
+    "ar": "حدد نوع الترخيص الموثق أو أضف تكاملًا مناسبًا لتحديد جهة الخدمات.",
+    "en": "Select a verified license type or add a matching integration to identify the service authority."
+  },
+  "integration.api_ready": {
+    "ar": "اتصال API محفوظ. يلزم ربط الحقول قبل تنفيذ إجراءات الجهة.",
+    "en": "API connection configured. Field mapping is required before authority actions can run."
+  },
+  "design.pageNumber": {
+    "ar": "صفحة {number}",
+    "en": "Page {number}"
+  },
+  "design.deletePage": {
+    "ar": "حذف «{name}»؟",
+    "en": "Delete “{name}”?"
+  },
+  "design.fileSaved": {
+    "ar": "تم حفظ ملف {format}: {path}",
+    "en": "Saved {format} file: {path}"
+  },
+  "design.fill": {
+    "ar": "تعبئة {label}",
+    "en": "Fill {label}"
+  },
+  "design.copy": {
+    "ar": "نسخة",
+    "en": "Copy"
+  },
+  "doc.operation": {
+    "ar": "بيان عملية",
+    "en": "Operation statement"
+  },
+  "doc.commission": {
+    "ar": "بيان عمولة",
+    "en": "Commission statement"
+  },
+  "doc.expense": {
+    "ar": "سند مصروف",
+    "en": "Expense voucher"
+  },
+  "doc.payment": {
+    "ar": "إيصال دفعة",
+    "en": "Payment receipt"
+  },
+  "doc.receivable": {
+    "ar": "إشعار استحقاق",
+    "en": "Receivable notice"
+  },
+  "doc.title": {
+    "ar": "العنوان",
+    "en": "Title"
+  },
+  "doc.dealValue": {
+    "ar": "قيمة العملية",
+    "en": "Deal value"
+  },
+  "doc.basis": {
+    "ar": "أساس العمولة",
+    "en": "Commission basis"
+  },
+  "doc.rate": {
+    "ar": "النسبة",
+    "en": "Rate"
+  },
+  "doc.category": {
+    "ar": "التصنيف",
+    "en": "Category"
+  },
+  "doc.linked": {
+    "ar": "السجل المرتبط",
+    "en": "Linked record"
+  },
+  "doc.statement": {
+    "ar": "البيان",
+    "en": "Statement"
+  },
+  "doc.kind": {
+    "ar": "النوع",
+    "en": "Type"
+  },
+  "doc.report": {
+    "ar": "تقرير مالي",
+    "en": "Financial report"
+  },
+  "doc.allPeriod": {
+    "ar": "كل الفترة",
+    "en": "All dates"
+  },
+  "doc.from": {
+    "ar": "من",
+    "en": "From"
+  },
+  "doc.to": {
+    "ar": "إلى",
+    "en": "to"
+  },
+  "doc.until": {
+    "ar": "حتى",
+    "en": "Until"
+  },
+  "doc.invoiceCollected": {
+    "ar": "تحصيل الفواتير",
+    "en": "Invoice collections"
+  },
+  "doc.commissionCollected": {
+    "ar": "تحصيل العمولات",
+    "en": "Commission collections"
+  },
+  "doc.ofTotal": {
+    "ar": "من أصل",
+    "en": "of"
+  },
+  "doc.expenses": {
+    "ar": "المصروفات",
+    "en": "Expenses"
+  },
+  "doc.receivables": {
+    "ar": "المستحقات المتبقية",
+    "en": "Outstanding receivables"
+  },
+  "doc.net": {
+    "ar": "الصافي = التحصيل − المصروفات",
+    "en": "Net = collections − expenses"
+  },
+  "doc.netNote": {
+    "ar": "الصافي محسوب من الدفعات المسجّلة مطروحًا منها المصروفات، وليس من أرقام تقديرية.",
+    "en": "Net is calculated from recorded payments less expenses, not estimated figures."
+  },
+  "integration.changed": {
+    "ar": "تغيرت إعدادات التكامل أثناء الاختبار؛ أعد الاختبار.",
+    "en": "Integration settings changed during the test; test again."
+  },
+  "integration.connectedMapping": {
+    "ar": "متصل. يلزم ربط الحقول وفق وثائق الجهة قبل تنفيذ أي إجراء.",
+    "en": "Connected. Authority-specific field mapping is required before any business action."
+  },
+  "contract.percent": {
+    "ar": "نسبة مئوية",
+    "en": "Percentage"
+  },
+  "contract.fixed": {
+    "ar": "مبلغ ثابت",
+    "en": "Fixed amount"
+  },
+  "contract.draft": {
+    "ar": "مسودة غير موثقة",
+    "en": "Unverified draft"
+  },
+  "contract.documented": {
+    "ar": "موثق",
+    "en": "Documented"
+  },
+  "contract.active": {
+    "ar": "نشط",
+    "en": "Active"
+  },
+  "contract.expired": {
+    "ar": "منتهي",
+    "en": "Expired"
+  },
+  "contract.cancelled": {
+    "ar": "ملغى",
+    "en": "Cancelled"
+  },
+  "contract.officialPdf": {
+    "ar": "PDF موثق",
+    "en": "Official PDF"
+  },
+  "contract.manualDraft": {
+    "ar": "مسودة يدوية",
+    "en": "Manual draft"
+  },
+  "contract.number": {
+    "ar": "رقم العقد",
+    "en": "Contract number"
+  },
+  "contract.scope": {
+    "ar": "نطاق العقد",
+    "en": "Contract scope"
+  },
+  "contract.parties": {
+    "ar": "الأطراف",
+    "en": "Parties"
+  },
+  "contract.period": {
+    "ar": "المدة",
+    "en": "Period"
+  },
+  "contract.start": {
+    "ar": "تاريخ البداية",
+    "en": "Start date"
+  },
+  "contract.end": {
+    "ar": "تاريخ النهاية",
+    "en": "End date"
+  },
+  "contract.commission": {
+    "ar": "العمولة",
+    "en": "Commission"
+  },
+  "contract.license": {
+    "ar": "رقم الرخصة/الترخيص",
+    "en": "License / Registration number"
+  },
+  "contract.source": {
+    "ar": "المصدر",
+    "en": "Source"
+  },
+  "contract.pdf": {
+    "ar": "ملف PDF",
+    "en": "PDF file"
+  },
+  "contract.preview": {
+    "ar": "معاينة عقد",
+    "en": "Contract preview"
+  },
+  "contract.contract": {
+    "ar": "عقد",
+    "en": "Contract"
+  },
+  "doc.value.marketing": {
+    "ar": "تسويق",
+    "en": "Marketing"
+  },
+  "doc.value.travel": {
+    "ar": "انتقالات",
+    "en": "Travel"
+  },
+  "doc.value.fees": {
+    "ar": "رسوم",
+    "en": "Fees"
+  },
+  "doc.value.maintenance": {
+    "ar": "صيانة",
+    "en": "Maintenance"
+  }
+}
