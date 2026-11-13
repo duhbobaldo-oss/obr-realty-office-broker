@@ -52,9 +52,10 @@ npm install
 npm run dev:tauri
 ```
 
-اختبارات Rust:
+اختبارات Rust (تحتاج بناء الواجهة أولًا لأن Tauri يقرأ مجلد `desktop/dist`):
 
 ```bash
+npm run build --workspace=desktop
 cd desktop/src-tauri
 cargo test
 ```
@@ -117,6 +118,7 @@ Requirements: Windows 10 or later, Node.js 20+, Rust, and the [Tauri prerequisit
 ```bash
 npm install
 npm run dev:tauri                      # run the app
+npm run build --workspace=desktop      # build the frontend (needed before cargo test)
 cd desktop/src-tauri && cargo test     # Rust tests
 npm run build:tauri                    # build the installer
 ```
